@@ -1,0 +1,29 @@
+body {
+background:url(bg.jpg) repeat;
+font-family: Georgia,Serif;
+}
+nav{
+margin-bottom: 60px;
+margin-left:10%;
+}
+ol, ul, li {
+list-style:none;
+margin-bottom: 0.9375em;
+padding-left:0px;
+}
+h1{
+font-family: "Times New Roman",Georgia,Serif; 
+color:#8B4513;
+font-size: xx-large;
+}
+
+p{
+font-style: Italic;
+color:#CD853F;
+}
+.mainContent{
+margin-left: 10%;
+}
+.clear {
+clear:both;
+}

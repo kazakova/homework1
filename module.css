@@ -1,0 +1,24 @@
+
+#indexH1Span{
+border-bottom: dotted;
+}
+#indexH1{
+text-align: center;
+}
+.footer{
+color: #8B0000;
+}
+#indexAddress{
+text-align: center;
+}
+#interestsH1{
+text-align: right;
+margin-right: 3%;
+}
+#interestsH1Span, #interestAddressSpan{
+border-bottom: solid;
+}
+#interestsAddress{
+text-align: right;
+margin-right: 3%;
+}

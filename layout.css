@@ -1,0 +1,21 @@
+
+nav>ul>li{
+font-family: "Arial, Verdana";
+font-style: oblique;
+float: left;
+margin-right:10%;
+}
+nav>ul>li>a{
+color: #808000;
+font-size: Large;
+}
+.content{
+margin-bottom: 100px;
+}
+#resumeNav>ul{
+float: right;
+}
+#resumeNav>ul>li{
+float: none;
+margin-right: 50px;
+}
