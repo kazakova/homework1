@@ -1,29 +1,46 @@
+
 body {
-background:url(bg.jpg) repeat;
-font-family: Georgia,Serif;
-}
-nav{
-margin-bottom: 60px;
-margin-left:10%;
-}
-ol, ul, li {
-list-style:none;
-margin-bottom: 0.9375em;
-padding-left:0px;
-}
-h1{
-font-family: "Times New Roman",Georgia,Serif; 
-color:#8B4513;
-font-size: xx-large;
+font: 12px/18px Helvetica, Arial, Helvetica, sans-serif;
+background: black url("bg.jpg") center top no-repeat;
+margin:0;
 }
 
-p{
-font-style: Italic;
-color:#CD853F;
+/* Specific for these two pages not to have black fills on the bottom */
+#home, #licensePage{
+background-size: cover;
 }
-.mainContent{
-margin-left: 10%;
+
+h3{
+font-size: 20px;
 }
-.clear {
-clear:both;
+
+nav{
+float: left;
+width: 200px;
+text-align: right;
+}
+
+nav ul {
+padding: 0px;
+margin: 0px;
+list-style-type: none;
+text-align: right;
+}
+
+nav ul li a {
+color: #222;
+background: none;
+text-decoration: none;
+font-size: 100%;
+vertical-align: baseline;
+}
+
+nav>ul>li>a:hover{
+text-shadow: -1px -1px 0 #000, 1px 3px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+ul, ol, li{
+list-style: none;
+margin-bottom: 0.9375em;
+padding-left: 0px;
 }

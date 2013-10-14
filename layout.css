@@ -1,21 +1,79 @@
 
-nav>ul>li{
-font-family: "Arial, Verdana";
-font-style: oblique;
+#wrapper{
+min-height: 100%;
+height: auto !important;
+width: 1300px;
+padding-top: 57px;
+margin-left:100px;
+}
+
+/*the specs for current page text/image on the nag bar (the one you are on now)*/
+#current{
+background: rgba(100,90, 0, .4);
+border-top: 3px solid #222;
+padding: 5px;
+margin: 0px;
+list-style: none;
+font-size: 30px;
+letter-spacing: -2px;
+line-height: 24px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+margin-bottom: 0;
+text-transform: uppercase;
+}
+/* specs for the items on the nav bar that are not selected */
+.header{
+padding: 5px;
+margin: 0px;
+list-style: none;
+font-size: 30px;
+letter-spacing: -2px;
+line-height: 24px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+margin-bottom: 0;
+text-transform: uppercase;
+}
+
+/* the box that contains everything except nag and the footer*/
+#content{
+background: rgba(100,90, 0, .4);
+border-top: 3px solid #222;
+border-bottom: 3px solid #222;
 float: left;
-margin-right:10%;
+width: 900px;
+margin-left: 30px;
+min-height: 630px;
+padding-bottom: 112px;
+padding-left: 10px;
+padding-right: 10px;
+margin-bottom: 30px;
 }
-nav>ul>li>a{
-color: #808000;
-font-size: Large;
+
+/*background of the content for the license page is different*/
+#licensePage>#wrapper>#content{
+background: rgba(174, 174, 71, 0.6)!important;
 }
-.content{
-margin-bottom: 100px;
+
+/* recent project on the home page */
+#latest-involvements{
+font-size: 25px;
+color:#660000;
+float: left;
+height: 35px;
+margin-right: 35px;
+font-style: Italic;
 }
-#resumeNav>ul{
-float: right;
-}
-#resumeNav>ul>li{
-float: none;
-margin-right: 50px;
+
+#footer {
+color: #CFCF00;
+text-shadow: -1px -1px 0 #000, 1px 3px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+margin-left: auto;
+clear: both;
+display: block;
+height: 60px;
+width:1100px;
 }

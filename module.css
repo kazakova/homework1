@@ -1,24 +1,92 @@
+/* main center box */
+#content>h1 {
+background: none;
+margin-bottom: 33px;
+margin-top: -8px;
+color: #191d1f;
+font-weight: bold;
+font-size: 70px;
+line-height: 81px;
+letter-spacing: -6px;
+text-indent: 0;
+text-transform: uppercase;
+height: auto;
+width: auto;
+}
 
-#indexH1Span{
-border-bottom: dotted;
+#content>h2{
+border-bottom: none;
+border-top: 1px solid #222222;
+font-size: 18px;
+font-weight: bold;
+line-height: 20px;
+margin-bottom: 10px;
+padding: 20px 0 0;
 }
-#indexH1{
-text-align: center;
+
+#recent-part{
+clear: both;
+float: left;
+font-size: 12px;
+padding: 16px 0 0 0;
 }
-.footer{
-color: #8B0000;
+
+.recent-item{
+float: left;
+width: 390px;
+height: 260px;
 }
-#indexAddress{
-text-align: center;
+
+.recent-item > a> img{
+margin: -2px;
+-moz-box-shadow: 0 0 20px #222;
+-webkit-box-shadow: 0 0 20px #222;
+max-width: 90%;
+margin-left:auto;
+margin-right:auto;
 }
-#interestsH1{
-text-align: right;
-margin-right: 3%;
+
+.recent-item > a> img:hover{
+border: 2px solid #222;
+margin: -2px;
+-moz-box-shadow: 0 0 25px #222;
+-webkit-box-shadow: 0 0 25px #222;
 }
-#interestsH1Span, #interestAddressSpan{
-border-bottom: solid;
+
+/* footer related stuff */
+#footer> a{
+margin-left: 30px;
+color: #CFCF00 !important;
+text-shadow: -1px -1px 0 #000, 1px 3px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000 !important;
 }
-#interestsAddress{
-text-align: right;
-margin-right: 3%;
+
+#footer>span{
+margin-left: 30px;
 }
+
+/* License page specific Stuff */
+#licenseName{
+font-size: 30px !important;
+}
+
+#licenseConditions{
+margin-left: 50px;
+}
+
+#licenseConditions>p{
+margin-left: 50px;
+font-size: 15px;
+}
+
+#ccRights{
+margin-left: 100px !important;
+}
+
+#ccRights>li{
+list-style-type: circle !important;
+font-size: 15px;
+}
+
+
+
+

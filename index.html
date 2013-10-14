@@ -6,45 +6,47 @@
   <link rel="stylesheet" href="layout.css">
   <link rel="stylesheet" href="module.css">
   <link rel="stylesheet" href="state.css">
+  
 </head>
 
-<body>
-
-<!-- Site navigation menu -->
-<nav>
-  <ul>
-  <li class="header"><a href="index.html">Home page</a>
-  <li class="header"><a href="info.html">Information</a>
-  <li class="header"><a href="interests.html">Interests</a>
-  <li class="header"><a href="contact.html">Contact Me</a>
-  <li class="header"><a href="resume.html">Resume</a>
-</ul>
-</nav>
-<div class="clear"></div>
-
-<!-- Main content -->
-<div class="mainContent">
-<h1 id="indexH1">
-<span id="indexH1Span"> My first styled page</span>
-</h1>
-
-<span class="welcome">
-<p>Welcome to my styled page!</p>
-</span>
-
-<div class="content">
-<p>It lacks images, but at least it has style.
-And it has links, even if they don't go
-anywhere&hellip;</p>
-
-<p>There should be more here, but I don't know
-what yet.</p>
-</div>
-
-<!-- Sign and date the page, it's only polite! -->
-<div class="footer">
-<address id="indexAddress">Made 6 October 2013 by myself.</address>
-</div>
-</div>
+<body id="home">
+  <div id="wrapper">
+      <nav>
+        <ul>
+          <li id="current"><a href="index.html">Home</a>
+          <li class="header"><a href="about.html">About me</a>
+          <li class="header"><a href="projects.html">Projects</a>
+          <li class="header"><a href="interests.html">Interests</a>
+          <li class="header"><a href="resume.html">Resume</a>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+    <div id="content">
+      <h1 id="heading"> <span class=mainHead >Olga Kazakova:</span> <span class=mainHead>Bachelor's Candidate,</span> <span class=mainHead> Informatics, UW Seattle </span> </h1>
+      <h2> <p> Thank you for visiting my website!</p>
+        Since you have gone so far, you must be pretty interested in who I am and what I do.
+        <br>
+        Take a look at the projects I have participated in, courses I have taken, and don't forget to check out the things I do outside of school and work. Well, yeah! I have a life you know;)))
+       </h2>
+       <h3 id="latest-involvements"> Recent Participations </h3>
+       <div id="recent-part">
+        <div class="recent-item">
+          <a href="http://www.rad.washington.edu/" rel="bookmark" title="UW Radiology">
+            <img class="thumb" src="UWRadiology.png" alt="">
+         
+           </a>
+         </div>
+         <div class="recent-item">
+           <a href="http://www.alicewondermarketing.com/home" rel="bookmark" title="Alice          Wonder">
+           <img class="thumb" src="Alice_Wonder.png" alt="">
+           
+           </a>
+          </div>
+        </div>
+    </div>
+    <div id=footer> 
+   <a rel="license" href="license.html"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Personal Webpage</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Olga Kazakova</span> is licensed under a <a rel="license" href="license.html">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.       
+    </div>
+   </div.
 </body>
 </html>
