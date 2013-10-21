@@ -1,13 +1,12 @@
 
 body {
 font: 12px/18px Helvetica, Arial, Helvetica, sans-serif;
-background: black url("bg.jpg") center top no-repeat;
+background: black url("bg.jpg") center top no-repeat fixed;
 margin:0;
-}
-
-/* Specific for these two pages not to have black fills on the bottom */
-#home, #licensePage{
 background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 }
 
 h3{
@@ -16,7 +15,8 @@ font-size: 20px;
 
 nav{
 float: left;
-width: 200px;
+width: 15%;
+max-width: 200px;
 text-align: right;
 }
 

@@ -1,0 +1,111 @@
+@h2AboutSize: 30px;
+@emphColor: #660000;
+@h2Border: 1px;
+@pAboutSize: 20px;
+@iterations:3;
+
+.setAboutHeaders (@h2Border; @color){
+border-top: @h2Border solid #222222;
+color: @color;
+font-size: @h2AboutSize !important;
+font-weight: bold;
+line-height: (@h2AboutSize + 2px);
+margin-bottom: 10px;
+padding: 20px 0 0;
+}
+
+.setAboutHeaders (@color){
+border-top:none !important;
+color: @color;
+font-size: @h2AboutSize !important;
+font-weight: bold;
+line-height: (@h2AboutSize + 2px);
+margin-bottom: 10px;
+padding: 20px 0 0;
+}
+
+.stPrgrphAbt(@index) when (@index > 0){
+  #par@{index}{
+    font-size:@pAboutSize !important;
+    line-height:(@pAboutSize + 4px); 
+  }
+  .stPrgrphAbt(@index - 1);
+}
+.stPrgrphAbt(0) {} 
+
+.stPrgrphAbt(@iterations);
+
+.setIntrstHead (@h2Border; @color){
+.setAboutHeaders (@h2Border; @color);
+text-transform: uppercase;
+}
+
+.setIntrstHead (@color){
+.setAboutHeaders (@color);
+text-transform: uppercase;
+
+}
+
+.meImageFormat {
+width: 20%;
+height: auto;
+float: left;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+-moz-box-shadow: 0 0 20px #222;
+-webkit-box-shadow: 0 0 20px #222;
+box-shadow: 0 0 20px #222;
+}
+
+.stIntrstPar{
+padding-right: 10px;
+font-size: @pAboutSize;
+line-height:(@pAboutSize + 4px);
+background:rgba(174, 174, 71, 0.6)!important;
+}
+
+
+#aboutY{
+.setAboutHeaders (@h2Border; Black);
+}
+
+#aboutTd{
+.setAboutHeaders (Black);
+}
+
+#aboutTm{
+.setAboutHeaders (@emphColor);
+}
+
+#wrkHrd{
+.setIntrstHead (@h2Border; Black);
+}
+
+#hrdlWrk{
+.setIntrstHead (@emphColor);
+}
+
+.mePic{
+.meImageFormat;
+}
+
+.aboutPrts {
+overflow: hidden;
+}
+
+.aboutInt{
+.stIntrstPar;
+
+}
+
+@media only screen and (max-width: 1100px) {
+nav{
+width: 183px !important;
+}
+
+}	
+
+
+
+

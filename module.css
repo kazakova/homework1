@@ -2,7 +2,7 @@
 #content>h1 {
 background: none;
 margin-bottom: 33px;
-margin-top: -8px;
+margin-top: 0px;
 color: #191d1f;
 font-weight: bold;
 font-size: 70px;
@@ -13,7 +13,9 @@ text-transform: uppercase;
 height: auto;
 width: auto;
 }
-
+.mainHead{
+display: block;
+}
 #content>h2{
 border-bottom: none;
 border-top: 1px solid #222222;
@@ -33,14 +35,15 @@ padding: 16px 0 0 0;
 
 .recent-item{
 float: left;
-width: 390px;
-height: 260px;
+width: 50%;
+height: auto;
 }
 
 .recent-item > a> img{
 margin: -2px;
 -moz-box-shadow: 0 0 20px #222;
 -webkit-box-shadow: 0 0 20px #222;
+box-shadow:0 0 20px #222;
 max-width: 90%;
 margin-left:auto;
 margin-right:auto;
