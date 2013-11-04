@@ -90,6 +90,71 @@ list-style-type: circle !important;
 font-size: 15px;
 }
 
+/*Kitten Page */
+
+#kittenToDo{
+float: left;
+}
+
+.ui-widget-content{
+background: yellow;
+width: 100px;
+text-align: center;
+}
+
+#droppable{
+width: 150px;
+height: 200px;
+background: green;
+float: left;
+margin-left: 20px;
+text-align: center;
+}
+
+#accordion > li {
+float: left;
+display: block;
+width: 50px;
+overflow: hidden;
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+
+}
+ 
+#accordion > li > image {
+border: none;
+border-right: 1px solid #fff;
+float: left;
+margin: -15px 15px 0 0;
+}
+ 
+#accordion > li.active {
+width: 640px;
+}
+
+
+#toggle, #toggle2 {
+width: 49%;
+padding: 3px;
+background: yellow;
+float: left;
+}
+#toggle2{
+margin-left: 3px;
+}
+#toggle3{
+background: yellow;
+}
+#progressbar{
+width: 100%;
+}
+.clear{
+clear: both;
+}
+
+
+
 
 
 
